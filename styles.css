@@ -4,7 +4,8 @@ body {
 
 h1 {
   background-color: transparent;
-  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-top: 50px;
   color: white;
   font-size: 60px;
   text-align: center;
@@ -40,79 +41,79 @@ button {
 #turquoiseButton {
   top: -180px;
   right: -770px;
-  color: blue;
+  color: rgb(0, 82, 107);
 }
 
 #blueButton {
   top: -490px;
   right: -600px;
-  color: white;
+  color: ;
 }
 
 #woodenButton {
-  top: -430px;
+  top: -420px;
   right: -600px;
-  color: black;
+  color: rgb(145, 56, 1);
 }
 
 #roseButton {
   top: -380px;
   right: -575px;
-  color: black;
+  color: rgb(145, 0, 72);
 }
 
 #brownButton {
   top: -310px;
   right: -550px;
-  color: white;
+  color: rgb(79, 48, 42);
 }
 
 #orangeButton {
   top: -230px;
   right: -520px;
-  color: white;
+  color: rgb(168, 100, 0);
 }
 
 #purpleButton {
   top: -670px;
   right: -405px;
-  color: white;
+  color: rgb(42, 0, 91);
 }
 
 #mustardButton {
   top: -420px;
   right: -330px;
-  color: black;
+  color: rgb(163, 133, 0);
 }
 
 #oliveButton {
   top: -320px;
   right: -355px;
-  color: white;
+  color: rgb(68, 68, 44);
 }
 
 #greenButton {
   top: -760px;
   right: -235px;
-  color: white;
+  color: rgb(25, 48, 37);
 }
 
 #silverButton {
   top: -690px;
   right: -235px;
-  color: white;
+  color: rgb(109, 109, 109);
 }
 
 #grayButton {
   top: -625px;
   right: -235px;
-  color: white;
+  color: rgb(37, 37, 40);
 }
 
 #redButton {
   top: -560px;
   right: -235px;
-  color: white;
+  color: rgb(137, 11, 25);
 }
 
 #blackButton {
