@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a095877f3e.js" crossorigin="anonymous"></script>
+  </head>
+  <link rel="stylesheet" href="colorChart.css" id="stylesheet" />
+    />
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <body>
+    <h1>Color Chart</h1>
+    <div class="button-container">
+      <img
+        id="color-chart"
+        src="src/color-chart.png"
+        alt="clear"
+        class="float-left"
+        height="500px"
+      />
+
+      <div class="turqoiseButton">
+        <button
+          id="turquoiseButton"
+          onclick="javascript:toggleTurquoiseSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleTurquoiseSound() {
+            let turquoiseAudioElem = document.getElementById("turquoiseAudio");
+            if (turquoiseAudioElem.paused) turquoiseAudioElem.play();
+            else turquoiseAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="turquoiseAudio"
+          src="src/Turquoise.mp3"
+          type="audio/mp3"
+        ></audio>
+      </div>
+
+      <div class="blueButton">
+        <button
+          id="blueButton"
+          onclick="javascript:toggleBlueSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleBlueSound() {
+            let blueAudioElem = document.getElementById("blueAudio");
+            if (blueAudioElem.paused) blueAudioElem.play();
+            else blueAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="blueAudio"
+          src="src/Blue.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+ <div class="woodenButton">
+        <button
+          id="woodenButton"
+          onclick="javascript:toggleWoodenSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleWoodenSound() {
+            let woodenAudioElem = document.getElementById("woodenAudio");
+            if (woodenAudioElem.paused) woodenAudioElem.play();
+            else woodenAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="woodenAudio"
+          src="src/Wooden.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+      <div class="roseButton">
+        <button
+          id="roseButton"
+          onclick="javascript:toggleRoseSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleRoseSound() {
+            let roseAudioElem = document.getElementById("roseAudio");
+            if (roseAudioElem.paused) roseAudioElem.play();
+            else roseAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="roseAudio"
+          src="src/Rose.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+    <div class="brownButton">
+        <button
+          id="brownButton"
+          onclick="javascript:toggleBrownSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleBrownSound() {
+            let brownAudioElem = document.getElementById("brownAudio");
+            if (brownAudioElem.paused) brownAudioElem.play();
+            else brownAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="brownAudio"
+          src="src/Brown.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+  </body>
+
+  <div class="orangeButton">
+        <button
+          id="orangeButton"
+          onclick="javascript:toggleOrangeSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleOrangeSound() {
+            let orangeAudioElem = document.getElementById("orangeAudio");
+            if (orangeAudioElem.paused) orangeAudioElem.play();
+            else orangeAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="orangeAudio"
+          src="src/Orange.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+    <div class="purpleButton">
+        <button
+          id="purpleButton"
+          onclick="javascript:togglePurpleSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function togglePurpleSound() {
+            let purpleAudioElem = document.getElementById("purpleAudio");
+            if (purpleAudioElem.paused) purpleAudioElem.play();
+            else purpleAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="purpleAudio"
+          src="src/Purple.mp3"
+          type="audio/mp3"
+        ></audio>
+
+        <div class="mustardButton">
+        <button
+          id="mustardButton"
+          onclick="javascript:toggleMustardSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleMustardSound() {
+            let mustardAudioElem = document.getElementById("mustardAudio");
+            if (mustardAudioElem.paused) mustardAudioElem.play();
+            else mustardAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="mustardAudio"
+          src="src/Mustard.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+<div class="oliveButton">
+        <button
+          id="oliveButton"
+          onclick="javascript:toggleOliveSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleOliveSound() {
+            let oliveAudioElem = document.getElementById("oliveAudio");
+            if (oliveAudioElem.paused) oliveAudioElem.play();
+            else oliveAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="oliveAudio"
+          src="src/Olive.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+<div class="greenButton">
+        <button
+          id="greenButton"
+          onclick="javascript:toggleGreenSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleGreenSound() {
+            let greenAudioElem = document.getElementById("greenAudio");
+            if (greenAudioElem.paused) greenAudioElem.play();
+            else greenAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="greenAudio"
+          src="src/Green.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+<div class="silverButton">
+        <button
+          id="silverButton"
+          onclick="javascript:toggleSilverSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleSilverSound() {
+            let silverAudioElem = document.getElementById("silverAudio");
+            if (silverAudioElem.paused) silverAudioElem.play();
+            else silverAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="silverAudio"
+          src="src/Silver.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+<div class="grayButton">
+        <button
+          id="grayButton"
+          onclick="javascript:toggleGraySound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleGraySound() {
+            let grayAudioElem = document.getElementById("grayAudio");
+            if (grayAudioElem.paused) grayAudioElem.play();
+            else grayAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="grayAudio"
+          src="src/Gray.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+    <div class="redButton">
+        <button
+          id="redButton"
+          onclick="javascript:toggleRedSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleRedSound() {
+            let redAudioElem = document.getElementById("redAudio");
+            if (redAudioElem.paused) redAudioElem.play();
+            else redAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="redAudio"
+          src="src/Red.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+<div class="blackButton">
+        <button
+          id="blackButton"
+          onclick="javascript:toggleBlackSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleBlackSound() {
+            let blackAudioElem = document.getElementById("blackAudio");
+            if (blackAudioElem.paused) blackAudioElem.play();
+            else blackAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="blackAudio"
+          src="src/Black.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+<div class="whiteButton">
+        <button
+          id="whiteButton"
+          onclick="javascript:toggleWhiteSound()"
+        >
+          <b><i class="fas fa-play"></i></b>
+        </button>
+        <script type="text/javascript">
+          function toggleWhiteSound() {
+            let whiteAudioElem = document.getElementById("whiteAudio");
+            if (whiteAudioElem.paused) whiteAudioElem.play();
+            else whiteAudioElem.pause();
+          }
+        </script>
+        <audio
+          id="whiteAudio"
+          src="src/Audio/White.mp3"
+          type="audio/mp3"
+        ></audio>
+    </div>
+
+    </div>
+  </body>
+</html>
